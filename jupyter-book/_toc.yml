@@ -8,9 +8,8 @@ options:
 #  only_build_toc_files: true
 chapters:
 - file: programming
-# - file: environment
-# - file: starting
-# - file: variables_expressions
+- file: starting
+- file: variables_expressions
 # - file: functions
 # - file: modules
 # - file: conditionals
