@@ -28,13 +28,13 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b76e3c8a" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
-    <link rel="stylesheet" type="text/css" href="_static/proof.css?v=ca93fcec" />
+    <link rel="stylesheet" type="text/css" href="_static/proof.css?v=b4b7a797" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -63,7 +63,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'starting';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="3. 변수, 값, 표현식" href="variables_expressions.html" />
+    <link rel="next" title="3. 값과 변수" href="values_variables.html" />
     <link rel="prev" title="1. 컴퓨터 프로그래밍" href="programming.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -171,7 +171,8 @@
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="programming.html">1. 컴퓨터 프로그래밍</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">2. 프로그래밍 맛보기</a></li>
-<li class="toctree-l1"><a class="reference internal" href="variables_expressions.html">3. 변수, 값, 표현식</a></li>
+<li class="toctree-l1"><a class="reference internal" href="values_variables.html">3. 값과 변수</a></li>
+<li class="toctree-l1"><a class="reference internal" href="expressions_dataTypes.html">4. 자료형과 표현식</a></li>
 </ul>
 
     </div>
@@ -1448,44 +1449,6 @@ b 곱하기 a: 18
 </div>
 </div>
 </div>
-<p><strong>예제 6</strong></p>
-<p>연이자 5%인 정기예금에 1천만원을 10년간 은행에 맡겼을 때
-10년 후에 수령할 금액을 계산하는 코드를 다양한 변수를 활용하여 구현한다.
-단, 다음 형식으로 출력하라.</p>
-<blockquote>
-<div><p>10년 후 받을 원금 + 이자는 OOO 원입니다.</p>
-</div></blockquote>
-<p>원리합계 계산은 아래 식을 따른다.</p>
-<blockquote>
-<div><p>원리합계 ＝ 원금 *  (1 ＋ 연금리 * 기간)</p>
-</div></blockquote>
-<p>힌트:</p>
-<p>아래 변수를 활용해서 원리합계 수식을 간단하게 구현할 수 있다.</p>
-<ul class="simple">
-<li><p>principal = 원금</p></li>
-<li><p>rate = 연이자율</p></li>
-<li><p>period = 저축기간(년)</p></li>
-<li><p>savings = 원리합계</p></li>
-</ul>
-<p>답</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">principal</span> <span class="o">=</span> <span class="mi">10000000</span>
-<span class="n">rate</span> <span class="o">=</span> <span class="mf">0.05</span>
-<span class="n">period</span> <span class="o">=</span> <span class="mi">10</span>
-
-<span class="n">savings</span> <span class="o">=</span> <span class="n">principal</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">rate</span> <span class="o">*</span> <span class="n">period</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;10년 후 받는 원금 + 이자는&quot;</span><span class="p">,</span> <span class="n">savings</span><span class="p">,</span> <span class="s2">&quot;원입니다.&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>10년 후 받는 원금 + 이자는 15000000.0 원입니다.
-</pre></div>
-</div>
-</div>
-</div>
 </section>
 <section id="id7">
 <h2><span class="section-number">2.7. </span>연습문제<a class="headerlink" href="#id7" title="Link to this heading">#</a></h2>
@@ -1542,11 +1505,11 @@ b 곱하기 a: 18
       </div>
     </a>
     <a class="right-next"
-       href="variables_expressions.html"
+       href="values_variables.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">3. </span>변수, 값, 표현식</p>
+        <p class="prev-next-title"><span class="section-number">3. </span>값과 변수</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

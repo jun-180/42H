@@ -9,7 +9,8 @@ options:
 chapters:
 - file: programming
 - file: starting
-- file: variables_expressions
+- file: values_variables
+- file: expressions_dataTypes
 # - file: functions
 # - file: modules
 # - file: conditionals
