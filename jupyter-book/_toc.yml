@@ -11,6 +11,7 @@ chapters:
 - file: starting
 - file: values_variables
 - file: expressions_dataTypes
+- file: input_print
 # - file: functions
 # - file: modules
 # - file: conditionals
