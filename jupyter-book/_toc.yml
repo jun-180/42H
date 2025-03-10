@@ -9,7 +9,7 @@ options:
 chapters:
 - file: programming
 - file: starting
-- file: values_variables
+- file: values
 - file: expressions_dataTypes
 - file: input_print
 # - file: functions
