@@ -11,7 +11,7 @@ chapters:
 - file: starting
 - file: values
 - file: expressions_dataTypes
-- file: input_print
+- file: inputs
 # - file: functions
 # - file: modules
 # - file: conditionals
