@@ -12,13 +12,13 @@ chapters:
 - file: values
 - file: expressions_dataTypes
 - file: inputs
+- file: strings
 # - file: functions
 # - file: modules
 # - file: conditionals
 # - file: iterations
 # - file: turtle_graphics
 # - file: exception_handling
-# - file: strings
 # - file: lists_tuples
 # - file: dicts_sets
 # - file: files
